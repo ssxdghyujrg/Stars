@@ -1,0 +1,14 @@
+name = "premium-stars-shop"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# ⬇️ فقط این یه خط رو عوض کن - آیدی KV رو از داشبورد Cloudflare کپی کن
+[[kv_namespaces]]
+binding = "KV"
+id = "d3774b86cd9e422eafa84dfe9e601883"
+
+# راهنما:
+# ۱. برو dash.cloudflare.com
+# ۲. Workers & Pages → KV
+# ۳. Create namespace → اسم بذار → Add
+# ۴. آیدی رو کپی کن و جای متن بالا بذار
